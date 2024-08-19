@@ -1,6 +1,6 @@
 sudo apt-get update
-sudo apt install git java-1.8.0-openjdk maven -y
-sudo apt-get install -y java-17-amazon-corretto-jdk -y
+sudo apt install git maven -y
+sudo apt-get install java-17-amazon-corretto-jdk -y
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
